@@ -21,7 +21,8 @@ class KTPOCR(object):
 
     def word_to_number_converter(self, word):
         word_dict = {
-            '|' : "1"
+            '|' : "1" ,
+            '1' : ':'
         }
         res = ""
         for letter in word:
